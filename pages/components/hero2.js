@@ -16,7 +16,7 @@ const Hero2 = ( ) => {
             strings: [
                 "Team Meetings",
                 "Brainstorming Sessions",
-                "Client Onboardings",
+                "Client Onboarding",
 
             ],
             startDelay: 0,
