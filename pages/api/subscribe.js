@@ -7,7 +7,7 @@ export default async function handler(req, res) {
     console.log(email)
     console.log(process.env.MAILCHIMP_AUDIENCE_ID)
     if (!email) {
-        res.status(401).json({e: "email required"})
+        res.status(401).json({e: "Email Required"})
         return
     }
 
@@ -44,6 +44,6 @@ export default async function handler(req, res) {
 
 
     } catch (e) {
-        res.status(401).json({e:"not working"})
+        res.status(401).json({e:"Something Went Wrong :("})
     }
 }

@@ -30,7 +30,7 @@ const Form = () => {
          if (data.success) {
             toast({
                 title:"Joined Successfully!",
-                description:"Thank you",
+                description:"Thank You",
                 status: "success"
             })
          } else {
