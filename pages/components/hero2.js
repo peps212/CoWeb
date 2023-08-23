@@ -17,6 +17,7 @@ const Hero2 = ( ) => {
                 "Team Meetings",
                 "Brainstorming Sessions",
                 "Client Onboarding",
+                "Product Demos"
 
             ],
             startDelay: 0,
@@ -40,7 +41,7 @@ const Hero2 = ( ) => {
     <Image class=" mb-10 object-cover object-center rounded shadow-2xl 2xl:w-8/12 xl:w-9/12 lg:w-11/12 md:w-1/1 sm:w-1/1  " alt="hero" src={pic}/>
     <div class="w-full 2xl:w-10/12 lg:w-9/12 md:w-11/12  flex flex-col mb-16 items-center text-center">
       <h1 class="title-font mobile:text-xl sm:text-4xl text-3xl mb-4 font-bold text-white">Elevate Virtual Collaboration: <br></br>Revolutionize <span ref={TypedElement}></span> </h1>
-      <p class="mb-2 font-bold leading-relaxed text-gray-300 w-5/6"> Seamlessly synchronize browsing sessions with your team, enable real-time sharing of insights, research, and interactions. <br></br> <br></br> Unlock shared online experiences like never before.</p>
+      <p class="mb-2 font-bold leading-relaxed text-gray-300 w-5/6"> Seamlessly synchronize web browsing sessions with your team, real-time collaboration on all the Web Apps you <span className="text-red-400 text-lg">Love</span>. <br></br> <br></br> Enable <span className="text-sky-300 ">Shared Online Experiences</span> Like Never Before.</p>
       <Form></Form>
       <p class="text-sm mt-2 text-white mb-8 w-full"></p>
 
