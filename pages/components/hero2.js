@@ -35,7 +35,7 @@ const Hero2 = ( ) => {
     return ( 
 <section class="text-gray-400 bg-gradient-to-r from-indigo-500 to-indigo-900 body-font h-full">
     <Header></Header>
-  <div class="container mx-auto flex flex-col py-0 justify-center items-center">
+  <div class="container mx-auto flex flex-col justify-center items-center h-screen">
     <Image class=" mb-10 object-cover object-center rounded shadow-2xl 2xl:w-8/12 xl:w-9/12 lg:w-11/12 md:w-1/1 sm:w-1/1  " alt="hero" src={pic}/>
     <div class="w-full 2xl:w-10/12 lg:w-9/12 md:w-11/12  flex flex-col mb-16 items-center text-center">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font- text-white"> <span ref={TypedElement}></span>Together, Anywhere</h1>
