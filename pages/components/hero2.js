@@ -35,7 +35,7 @@ const Hero2 = ( ) => {
   
 
     return ( 
-<section class=" bg-gradient-to-r from-indigo-500 to-indigo-900 body-font h-screen lg:h-full">
+<section class=" bg-gradient-to-r from-indigo-500 to-indigo-900 body-font h-screen h-max">
     <Header></Header>
   <div class="container mx-auto flex flex-col justify-center items-center text-center">
     
